@@ -1,4 +1,5 @@
-CXX=g++-4.4
+# CXX=~/gcc-trunk/bin/g++
+CXX=/usr/bin/clang++
 CXXFLAGS=-std=c++0x
 
 objects = main.o lib.o lib2.o c.o

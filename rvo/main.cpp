@@ -28,6 +28,10 @@ int main() {
 	print_copies("5: Returning through a delegate");
 	vector<C> v = getVectorOfC();
 	print_copies("6: Returning a local vector");
+  C c6 = URVO_complicated();
+	print_copies("7: URVO complicated");
+  C c7 = NRVO_complicated();
+	print_copies("7: NRVO complicated");
 }
 
 void doSomethingWith(const vector<C>& objs) {}
